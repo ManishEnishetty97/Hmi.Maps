@@ -1,0 +1,105 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/manish/Desktop/Hmi.Maps/src/Hmi.Maps.Service/Hmi.Maps.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/manish/Desktop/Hmi.Maps/src/Hmi.Maps.Service/Hmi.Maps.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/manish/Desktop/Hmi.Maps/src/Hmi.Maps.Service/Hmi.Maps.Service.csproj",
+        "projectName": "Hmi.Maps.Service",
+        "projectPath": "/Users/manish/Desktop/Hmi.Maps/src/Hmi.Maps.Service/Hmi.Maps.Service.csproj",
+        "packagesPath": "/Users/manish/.nuget/packages/",
+        "outputPath": "/Users/manish/Desktop/Hmi.Maps/src/Hmi.Maps.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/manish/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "GoogleApi": {
+              "target": "Package",
+              "version": "[4.0.7, )"
+            },
+            "Microsoft.Bcl.Async": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.ComponentModel.EventBasedAsync": {
+              "target": "Package",
+              "version": "[4.0.11, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
